@@ -1,0 +1,13 @@
+# Site Settings
+title: 'Evad Gozreh Blog'
+description: 'A developer blog by David Herzog'
+url: 'http://scotch-io.github.io' # the base hostname & protocol for your site
+footer_text: 'This text is footer text. Footer text goes here. Blah blah'
+
+# Admin Settings
+admin_name: 'David Herzog'
+admin_email: 'davidjherzog@gmail.com'
+
+# Social media
+twitter_username: evadgozreh
+github_username:  davidjamesherzog
