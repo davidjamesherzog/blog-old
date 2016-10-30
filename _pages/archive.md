@@ -11,7 +11,7 @@ permalink: /archive/
     <div class="row">
       <div class="column">
       {% for post in site.posts %}
-        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
         <p>{{ post.content | truncatewords:50 }}</p>
       {% endfor %}
       
